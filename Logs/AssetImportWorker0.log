@@ -1,0 +1,643 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Core' Language: 'en' Physical Memory: 16317 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+F:\Unity Installer\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Unity Projects/Shop
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61592
+Successfully changed project path to: F:/Unity Projects/Shop
+F:/Unity Projects/Shop
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 101.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path F:/Unity Installer/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity Projects/Shop/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   
+    VRAM:     4043 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'F:/Unity Installer/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity Installer/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/Unity Installer/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity Installer/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000996 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 87.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.559 seconds
+Domain Reload Profiling:
+	ReloadAssembly (559ms)
+		BeginReloadAssembly (48ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (451ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (201ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003785 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 102.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.082 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1083ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (906ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.7 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3239.
+Total: 2.769600 ms (FindLiveObjects: 0.200100 ms CreateObjectMapping: 0.086800 ms MarkObjects: 2.412600 ms  DeleteObjects: 0.069400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/PolygonShops
+  artifactKey: Guid(3346d72d35fe40b40a7db28b88c6ec75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops using Guid(3346d72d35fe40b40a7db28b88c6ec75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08ce610c2ec421379e9965d4b4095c5') in 0.003972 seconds 
+  Import took 0.007897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/PolygonShops/Scenes
+  artifactKey: Guid(11f43fa21a2bb2143b9498cb52bc1ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Scenes using Guid(11f43fa21a2bb2143b9498cb52bc1ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8df095bc7dd404ed9e7b096520a5ed') in 0.001081 seconds 
+  Import took 0.005483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014869 seconds.
+  path: Assets/PolygonShops/Scenes/Demo_01.unity
+  artifactKey: Guid(60c9363ae3e64a1419de69fc43dd95f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Scenes/Demo_01.unity using Guid(60c9363ae3e64a1419de69fc43dd95f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f87c4a361ab29db7b3906d5ac1b567') in 0.010685 seconds 
+  Import took 0.015121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.062665 seconds.
+  path: Assets/PolygonShops/Textures
+  artifactKey: Guid(30f2198472ff6ec4eab6808715ef1d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures using Guid(30f2198472ff6ec4eab6808715ef1d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9315dec8a7992e31c71de289cd7524') in 0.001310 seconds 
+  Import took 0.005490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073816 seconds.
+  path: Assets/PolygonShops/Textures/Emissive_01.png
+  artifactKey: Guid(87cd0cbd5cc9a8f419248bf76b790607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/Emissive_01.png using Guid(87cd0cbd5cc9a8f419248bf76b790607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556c728925af1d1796ef3d85eede4db4') in 0.093116 seconds 
+  Import took 0.096843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Tile_04.png
+  artifactKey: Guid(e22c949910eb4384393fc9911075b764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Tile_04.png using Guid(e22c949910eb4384393fc9911075b764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd11ca23db2c36208f3f1e97317f723b') in 0.007439 seconds 
+  Import took 0.012219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Wood_01.png
+  artifactKey: Guid(d3935dc2133960e4f80183d10b29eaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Wood_01.png using Guid(d3935dc2133960e4f80183d10b29eaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a900c9cdc4a6cf97fed1b16c69c67c') in 0.007064 seconds 
+  Import took 0.011180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Ground_LoadingZone_01.png
+  artifactKey: Guid(23dcd30bceb9c8440ab34344621cd6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Ground_LoadingZone_01.png using Guid(23dcd30bceb9c8440ab34344621cd6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27e6cb20ce92ab993fe00f5838a45e7') in 0.007985 seconds 
+  Import took 0.012541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/PolygonShops/Textures/Polygon_Sign_Video.mp4
+  artifactKey: Guid(228208ca967f1ad43ba476b190c5da8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/Polygon_Sign_Video.mp4 using Guid(228208ca967f1ad43ba476b190c5da8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0b049c1045fa60dc54845b4bf83470') in 0.011479 seconds 
+  Import took 0.016495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Ground_Dirt_02.png
+  artifactKey: Guid(bb7bcf5a6753bdb4c90a978c10dbaa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Ground_Dirt_02.png using Guid(bb7bcf5a6753bdb4c90a978c10dbaa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc17f7b52726d01f0962cefcfd4abb56') in 0.008761 seconds 
+  Import took 0.012838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Texture_01_Colour_Emissive.png
+  artifactKey: Guid(14fb9dc2372d0504092ea990cb35cb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Texture_01_Colour_Emissive.png using Guid(14fb9dc2372d0504092ea990cb35cb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbec0047abcb1098f203dfa8589ac20') in 0.007620 seconds 
+  Import took 0.012060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Ground_WhiteLines_01.png
+  artifactKey: Guid(5bab4ba55da60a14983ec8bcd208560e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Ground_WhiteLines_01.png using Guid(5bab4ba55da60a14983ec8bcd208560e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7162c103a9cc816161e5cf99efb00887') in 0.006404 seconds 
+  Import took 0.011210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Arcade_Wall_01.png
+  artifactKey: Guid(4ee9edf279e76404da8f9cf146651d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Arcade_Wall_01.png using Guid(4ee9edf279e76404da8f9cf146651d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f6434a5939f7bbbb52e91f78c6803c') in 0.007947 seconds 
+  Import took 0.012957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Marble_01.png
+  artifactKey: Guid(f448e858f0f18814f96d0f1c9dfea79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Marble_01.png using Guid(f448e858f0f18814f96d0f1c9dfea79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa2ec09b5efc55f9dc87bedb1461d36') in 0.006318 seconds 
+  Import took 0.010898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Toilet_01.png
+  artifactKey: Guid(dbf3dcab8d9dcf04bb47c8c9e02ab3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Toilet_01.png using Guid(dbf3dcab8d9dcf04bb47c8c9e02ab3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daff77a8362c81c11d0cbee9436b2efc') in 0.006641 seconds 
+  Import took 0.011729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Carpet_02_Alt_02.png
+  artifactKey: Guid(374073d529d6d3e4995bd6aaa4eb53c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Carpet_02_Alt_02.png using Guid(374073d529d6d3e4995bd6aaa4eb53c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63adb806818be0bb7224b4c70f3bbe87') in 0.011011 seconds 
+  Import took 0.015013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_Blocks_02.png
+  artifactKey: Guid(89154e7dfbd765641993d939889a9d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_Blocks_02.png using Guid(89154e7dfbd765641993d939889a9d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5475898ff41e26ae79718b277e25d631') in 0.007971 seconds 
+  Import took 0.013335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Signs_01.png
+  artifactKey: Guid(f9018dafa9958244588486dd6b61928b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Signs_01.png using Guid(f9018dafa9958244588486dd6b61928b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c60a69211c8d2bae5cffd05c4ed832') in 0.007385 seconds 
+  Import took 0.011950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Cobblestone_01.png
+  artifactKey: Guid(94e4c621c7f73fb488c58d8f11185bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Cobblestone_01.png using Guid(94e4c621c7f73fb488c58d8f11185bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c97edcc04cba75402259f5e0353d29') in 0.007750 seconds 
+  Import took 0.012328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Ground_YellowDiagonal_01.png
+  artifactKey: Guid(08fd88d85d06ccd43abc8a40c80ab2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Ground_YellowDiagonal_01.png using Guid(08fd88d85d06ccd43abc8a40c80ab2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f709d5e07e4229660a1851c7ad8246b7') in 0.007415 seconds 
+  Import took 0.012904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_Blocks_01.png
+  artifactKey: Guid(cf52ede552ea43a449489b4bd25767ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_Blocks_01.png using Guid(cf52ede552ea43a449489b4bd25767ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4b434d5cf6eed7bf42412bdb31606e') in 0.006562 seconds 
+  Import took 0.011066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Tile_02.png
+  artifactKey: Guid(cd0aa9aaa6d32814982ea22a34a06f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Tile_02.png using Guid(cd0aa9aaa6d32814982ea22a34a06f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc70e68178b2a78fcd6184b530d7241') in 0.006524 seconds 
+  Import took 0.010534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Tile_05.png
+  artifactKey: Guid(b3a0f6a8ce5823a449d0d1f6d0a63be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Tile_05.png using Guid(b3a0f6a8ce5823a449d0d1f6d0a63be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7839b7f156d06481862504d99d6e7514') in 0.006711 seconds 
+  Import took 0.011132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Ground_Disabled_01.png
+  artifactKey: Guid(44bdc7302a3f3b1458185e96a03d9a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Ground_Disabled_01.png using Guid(44bdc7302a3f3b1458185e96a03d9a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5775341cbe08f6f113b44b82191d7608') in 0.007709 seconds 
+  Import took 0.012106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Ground_01.png
+  artifactKey: Guid(cdb47a7a4c8a8da4fa87fb9ef8d95444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Ground_01.png using Guid(cdb47a7a4c8a8da4fa87fb9ef8d95444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd38bbf3a1ed003f90b28092e6be9cc') in 0.007192 seconds 
+  Import took 0.011352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Cladding_01.png
+  artifactKey: Guid(aabcc2eecfaa2ae498a9f8279ef67f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Cladding_01.png using Guid(aabcc2eecfaa2ae498a9f8279ef67f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e70931878ad2870926049ffae2d0133') in 0.006450 seconds 
+  Import took 0.011242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Ground_01_Normals.png
+  artifactKey: Guid(ebe0955d333488c47a06d7bcaaa79b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Ground_01_Normals.png using Guid(ebe0955d333488c47a06d7bcaaa79b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e518830a9b9e70319bf05f038c794ea') in 0.037278 seconds 
+  Import took 0.041274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Texture_01_B.png
+  artifactKey: Guid(52bff72ac7438b04297d6f86787d94dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Texture_01_B.png using Guid(52bff72ac7438b04297d6f86787d94dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475a90a1a69f26c172838149f5c005d3') in 0.008563 seconds 
+  Import took 0.012276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Brick_White_01.png
+  artifactKey: Guid(f1bf5f87c370bd94a8171881e25b963c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Brick_White_01.png using Guid(f1bf5f87c370bd94a8171881e25b963c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cb13d34865f3438de96db17b3b7222') in 0.006285 seconds 
+  Import took 0.011413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Texture_01_Emissive.png
+  artifactKey: Guid(71e35032b96013e40bf67b26f9f739c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Texture_01_Emissive.png using Guid(71e35032b96013e40bf67b26f9f739c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f5960b3272bfdbd9fcd82511ee67d9') in 0.007715 seconds 
+  Import took 0.012059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_ArcadeCarpet_01.png
+  artifactKey: Guid(01224dbfe390e0c4998393f25bb03bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_ArcadeCarpet_01.png using Guid(01224dbfe390e0c4998393f25bb03bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13182ca5fe05c948af19b6c36809c481') in 0.005677 seconds 
+  Import took 0.011376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Tile_01.png
+  artifactKey: Guid(8e61567bfb0333d44b8cef4c000646b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Tile_01.png using Guid(8e61567bfb0333d44b8cef4c000646b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8cd37557dad80a9cf3b3dfe9a37c44') in 0.006872 seconds 
+  Import took 0.011420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Wood_02.png
+  artifactKey: Guid(41b17f6c146c9d348b7bcf945c1b7972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Wood_02.png using Guid(41b17f6c146c9d348b7bcf945c1b7972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a264414cb3ca0a2fdb24d7670de8eb0d') in 0.007832 seconds 
+  Import took 0.011867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Carpet_02.png
+  artifactKey: Guid(062cb84f707120941a5a12d4689bbdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Carpet_02.png using Guid(062cb84f707120941a5a12d4689bbdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e77b23e3b35774f0261de4b8e1f40e') in 0.007524 seconds 
+  Import took 0.013357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000677 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Tile_03.png
+  artifactKey: Guid(0c8f9a8dfc1ed324aad92148e6d18e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Tile_03.png using Guid(0c8f9a8dfc1ed324aad92148e6d18e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41e257efaff048ddc62545dfdb40e53') in 0.006487 seconds 
+  Import took 0.010840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_Stripe_01.png
+  artifactKey: Guid(b8f09e7ff53390f438ce0088872fbf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_Stripe_01.png using Guid(b8f09e7ff53390f438ce0088872fbf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb192d47974c83604957788d40c35a4b') in 0.008585 seconds 
+  Import took 0.013489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Cladding_01_Normal.png
+  artifactKey: Guid(5a3b18544ee280e4fb1ddcff5d62b914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Cladding_01_Normal.png using Guid(5a3b18544ee280e4fb1ddcff5d62b914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5aeaa85360383b53ab71811640b753') in 0.008727 seconds 
+  Import took 0.012837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Carpet_Squares_01.png
+  artifactKey: Guid(5d5d6fa1d72292546a4b5e95ce8fb522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Carpet_Squares_01.png using Guid(5d5d6fa1d72292546a4b5e95ce8fb522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78590324f6d62c2bfee8daa1a1d0b64') in 0.006240 seconds 
+  Import took 0.010385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Ground_Dirt_01.png
+  artifactKey: Guid(ca40fe059d684bd46b5c195c467611ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Ground_Dirt_01.png using Guid(ca40fe059d684bd46b5c195c467611ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1a0b4cbb0a42cbf5e52fae37084b7a') in 0.007148 seconds 
+  Import took 0.011830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Brick_Coloured_01.png
+  artifactKey: Guid(431ecf35344c1a148aa6829eb9ce0364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Brick_Coloured_01.png using Guid(431ecf35344c1a148aa6829eb9ce0364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2ea15d88b21a79eff4848b8a8d0959') in 0.006153 seconds 
+  Import took 0.011388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Carpet_02_Alt_01.png
+  artifactKey: Guid(3ed74189c93ad8147870720c09aca129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Carpet_02_Alt_01.png using Guid(3ed74189c93ad8147870720c09aca129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83683013c3f1ea5a1d8bdb41c0d9b396') in 0.008177 seconds 
+  Import took 0.012283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Texture_02_A.png
+  artifactKey: Guid(d3222081cd7e05f40a0e54ee6e86df11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Texture_02_A.png using Guid(d3222081cd7e05f40a0e54ee6e86df11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c705141f482af4de8fc8e5c5b8c2cc9b') in 0.007900 seconds 
+  Import took 0.012970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Carpet_03.png
+  artifactKey: Guid(68dcfb2e67d78ca4bb19dd5512045ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Carpet_03.png using Guid(68dcfb2e67d78ca4bb19dd5512045ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdebc6b2e3657cd28b7b82f6db72e86a') in 0.007779 seconds 
+  Import took 0.012778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Mall_Map_01.png
+  artifactKey: Guid(b663f11e1b9bea447b8ab46478920263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Mall_Map_01.png using Guid(b663f11e1b9bea447b8ab46478920263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ccb29a8f59d3b6e1d7464579c954ad') in 0.006465 seconds 
+  Import took 0.011028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_01.png
+  artifactKey: Guid(24892fcde2cee9e4f865bf80dcd4a42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Concrete_01.png using Guid(24892fcde2cee9e4f865bf80dcd4a42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47211f1b869a20c1abc2937a1b65f3f7') in 0.007077 seconds 
+  Import took 0.012606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Carpet_01.png
+  artifactKey: Guid(4bfcca0e310eba846af605098696adbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Carpet_01.png using Guid(4bfcca0e310eba846af605098696adbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75cc207d9703250d7bf67456c15a10b') in 0.007798 seconds 
+  Import took 0.012275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Building_Mat_01.png
+  artifactKey: Guid(4ffadc19c8339c84e9cb92bf89b34996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Building_Mat_01.png using Guid(4ffadc19c8339c84e9cb92bf89b34996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f887e19bec3027d91861e7fd096495b3') in 0.006154 seconds 
+  Import took 0.010405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Texture_01_C.png
+  artifactKey: Guid(577a3dc5b60f2db4d991af3fda65e294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Texture_01_C.png using Guid(577a3dc5b60f2db4d991af3fda65e294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88c8a26e11445813ab2e49061e37a70') in 0.007562 seconds 
+  Import took 0.013194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Circle_01.png
+  artifactKey: Guid(be7dcf2282752cf4a93c976b4e780dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Circle_01.png using Guid(be7dcf2282752cf4a93c976b4e780dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03203315139cf75cd4918ee736e55f2c') in 0.006323 seconds 
+  Import took 0.010570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/PolygonShops/Textures/PolygonShops_Texture_01_A.png
+  artifactKey: Guid(d840dcd6a76098d40b6c4b73cb0bfbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/PolygonShops_Texture_01_A.png using Guid(d840dcd6a76098d40b6c4b73cb0bfbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c8726547388a6bc82ee52c718d1036') in 0.020828 seconds 
+  Import took 0.026794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.003277 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(72b2cfe5943abd543b31221f11167667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(72b2cfe5943abd543b31221f11167667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cff7d0826c6fca1f70a62af051fc08') in 0.001433 seconds 
+  Import took 0.006264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.016509 seconds.
+  path: Assets/PolygonShops/Scenes/Demo_01_Lite.unity
+  artifactKey: Guid(eb9c886363d6b9a4889e145f61599751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Scenes/Demo_01_Lite.unity using Guid(eb9c886363d6b9a4889e145f61599751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712982b41b7c1800bad9a9f1614b97bc') in 0.001764 seconds 
+  Import took 0.006331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.795429 seconds.
+  path: Assets/PolygonShops/Materials/Alternates
+  artifactKey: Guid(f14de609b0692bc4187d6df95679ce4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Materials/Alternates using Guid(f14de609b0692bc4187d6df95679ce4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ad21d9d8f247bb4e5a02bc9fcb2f4b') in 0.002030 seconds 
+  Import took 0.008059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.742805 seconds.
+  path: Assets/PolygonShops/Materials/Building_Mats
+  artifactKey: Guid(afa689e221a346a44bb168898b656699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Materials/Building_Mats using Guid(afa689e221a346a44bb168898b656699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c97e44c5fa1a0a0ada40dd8281def8') in 0.001476 seconds 
+  Import took 0.006257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.899064 seconds.
+  path: Assets/PolygonShops/Materials/Misc
+  artifactKey: Guid(5f0b3338a873f6445abee0619291921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Materials/Misc using Guid(5f0b3338a873f6445abee0619291921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6b5f11ed226ba1fc64afd337869d97') in 0.001262 seconds 
+  Import took 0.005577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.973119 seconds.
+  path: Assets/PolygonShops/Textures/SimpleSky.png
+  artifactKey: Guid(7bab9ac1487e10c40b9ed77d4c551e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Textures/SimpleSky.png using Guid(7bab9ac1487e10c40b9ed77d4c551e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04db7f6a5b8acfc088314ee9eadfd68') in 0.007459 seconds 
+  Import took 0.012105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.352374 seconds.
+  path: Assets/PolygonShops/Materials/Road
+  artifactKey: Guid(d436b55192f54cd41ae0a9af04e6a250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonShops/Materials/Road using Guid(d436b55192f54cd41ae0a9af04e6a250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74546df7d2ed5f80d4f9bf89aa003bd4') in 0.002092 seconds 
+  Import took 0.007171 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003812 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.007 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1007ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (844ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2697 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.3 MB.
+System memory in use after: 124.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3247.
+Total: 2.951900 ms (FindLiveObjects: 0.265500 ms CreateObjectMapping: 0.155400 ms MarkObjects: 2.514500 ms  DeleteObjects: 0.015600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
